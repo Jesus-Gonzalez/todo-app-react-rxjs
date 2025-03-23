@@ -1,0 +1,27 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    height: 100vh;
+    background-color: gradient(to right, #ff416c, #ff4b2b);
+}
+
+.todosContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputAdd {
+    display: flex;
+
+    input {
+        flex-grow: 1;
+    }
+}
+
+.list {
+    width: 350px;
+}
